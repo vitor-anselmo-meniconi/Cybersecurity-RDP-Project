@@ -16,12 +16,6 @@ O laboratório consistiu em duas máquinas virtuais configuradas no VirtualBox (
 * **Máquina Atacante:** Kali Linux (IP: `192.168.56.101`)
 * **Máquina Alvo:** Windows Server 2022 Standard Evaluation (IP: `192.168.56.105`)
 
-+----------------+      +------------------+
-|   Kali Linux   |<---->| Windows Server 22|
-| 192.168.56.101 |      | 192.168.56.105   |
-+----------------+      +------------------+
-        (Rede Interna/Host-Only)
-
 ### Configurações Importantes do Alvo (Windows Server 2022)
 * **Remote Desktop:** Configurado como `Enabled (all clients)`.
 * **Permissões de RDP:** O usuário `Administrator` foi adicionado ao grupo `Remote Desktop Users` para permitir o acesso.
